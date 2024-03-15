@@ -27,7 +27,7 @@ const Hero = () => {
     };
   }, []);
   return (
-    <div className="m-3">
+    <div className="m-3 my-20">
     <div className="xls:mt-52 mt-7 max-w-7xl mx-auto">
       {/* <div className="flex justify-end m-2">
         <div className="flex justify-center py-1 px-1 bg-white text-color-1 rounded-full w-[160px] items-center text-sm">

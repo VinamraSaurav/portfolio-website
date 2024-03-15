@@ -3,12 +3,12 @@ import { FaGithub, FaInstagram, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
-    <div>
+    <div className='mt-16'>
         <div className='max-w-7xl mx-auto mb-12 xls:mb-0'>
             <div className='bg-color-2 rounded-t-xl mx-3'>
                 <div className='flex flex-col justify-center items-center py-4 gap-y-3'>
                     <div className='text-white font-popins font-semibold text-lg mt-3'>
-                        Find Me On
+                        Find me on...
                     </div>
                     <div className='flex justify-center items-center text-4xl text-white gap-3'>
                         <FaLinkedin className='p-1 rounded-full hover:bg-white hover:text-color-2 hover:cursor-pointer'/>

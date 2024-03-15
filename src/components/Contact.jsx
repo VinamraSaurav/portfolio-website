@@ -32,7 +32,7 @@ const Contact = () => {
       });
 
   return (
-    <div className="m-3">
+    <div className="m-3 my-20">
     <div className="max-w-7xl mx-auto">
       <div className="max-w-6xl mx-auto  xls:my-40 my-12">
     <div id='contactUs'>
