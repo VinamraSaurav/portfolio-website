@@ -27,7 +27,7 @@ const Hero = () => {
     };
   }, []);
   return (
-    <div className="m-3 my-20">
+    <div className="m-3 my-20 mt-32">
     <div className="xls:mt-52 mt-7 max-w-7xl mx-auto">
       {/* <div className="flex justify-end m-2">
         <div className="flex justify-center py-1 px-1 bg-white text-color-1 rounded-full w-[160px] items-center text-sm">
@@ -36,7 +36,7 @@ const Hero = () => {
         </div>
         </div> */}
 
-      <div className="max-w-6xl bg-color-1 flex flex-wrap xls:flex-nowrap mx-auto gap-y-1 items-center justify-around xls:my-40 m-4 ">
+      <div className="max-w-6xl flex flex-wrap xls:flex-nowrap mx-auto gap-y-1 items-center justify-around xls:my-40 m-4 ">
         <div className="flex flex-col justify-between xls:items-start  gap-y-3">
           <div className="text-xl xls:text-3xl text-white font-popins font-bold text-center xls:text-start ml-8 xls:ml-0">
             Hi, I am <span className="text-color-4">Vinamra Saurav</span> 👋

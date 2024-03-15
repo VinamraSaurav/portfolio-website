@@ -4,7 +4,7 @@ import { FaGithub, FaInstagram, FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 const Footer = () => {
   return (
     <div className='mt-16'>
-        <div className='max-w-7xl mx-auto mb-12 xls:mb-0'>
+        <div className='max-w-7xl mx-auto mb-0 xls:mb-0'>
             <div className='bg-color-2 rounded-t-xl mx-3'>
                 <div className='flex flex-col justify-center items-center py-4 gap-y-3'>
                     <div className='text-white font-popins font-semibold text-lg mt-3'>
