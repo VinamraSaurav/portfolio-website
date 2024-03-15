@@ -35,7 +35,7 @@ const Navbar = () => {
         </div>
 
     </div>
-    <div className={`xls:hidden px-3 py-2 font-bold  fixed bg-white/90 h-screen top-20 w-7/12 flex items-center transition-all duration-300 ease-in-out justify-center ${open? 'right-0':'right-[-910px]'}`}>
+    <div className={`z-50 xls:hidden px-3 py-2 font-bold  fixed bg-white/90 h-screen top-20 w-7/12 flex items-center transition-all duration-300 ease-in-out justify-center ${open? 'right-0':'right-[-910px]'}`}>
       <div className='flex flex-col gap-y-7 text-lg font-popins transition-all duration-300 items-start'>
                 <div className='flex gap-2 items-center hover:text-color-5 hover:bg-color-1 py-1 px-3 rounded-md hover:cursor-pointer transition-all duration-300'><MdHome className='text-2xl'/> HOME</div>
                 <div className='flex items-center mx-auto h-[1px] w-9/12 bg-black'></div>

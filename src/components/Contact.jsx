@@ -111,7 +111,7 @@ const Contact = () => {
             <button
               type="submit"
               disabled={state.submitting}
-              className="submit-btn w-[150px] p-2 my-2 mx-auto rounded-md font-popins px-4 bg-color-2 font-bold mt-5 hover:bg-gradient-card text-white flex justify-center mb-10 border border-color-1 hover:shadow-[0_0_10px_3px_#152546]"
+              className="submit-btn w-[150px] p-2 my-2 mx-auto rounded-md font-popins px-4 bg-color-2 font-bold mt-5 hover:bg-gradient-card text-white flex justify-center mb-10 border border-color-1 hover:bg-color-6 hover:shadow-[0_0_10px_3px_#152546]"
             //   onClick={()=>toast.success("Message Sent")}
             >
               
