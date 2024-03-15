@@ -25,10 +25,10 @@ const Navbar = () => {
 
     </div>
     <div className='fixed bottom-[0] left-0 right-0 xls:hidden flex bg-white h-12 justify-around rounded-t-md'>
-    <div className='flex gap-2 items-center hover:text-color-5 hover:bg-color-1 py-1 px-3 rounded-b-2xl hover:cursor-pointer'><MdHome className='text-3xl'/> </div>
-                <div className='flex gap-2 items-center hover:text-color-5 hover:bg-color-1 py-1 px-3 rounded-b-2xl hover:cursor-pointer'><GoProjectSymlink className='text-3xl'/></div>
-                <div className='flex gap-2 items-center hover:text-color-5 hover:bg-color-1 py-1 px-3 rounded-b-2xl hover:cursor-pointer'><MdOutlineWork className='text-3xl'/></div>
-                <div className='flex gap-1 items-center hover:text-color-5 hover:bg-color-1 py-1 px-3 rounded-b-2xl hover:cursor-pointer'><FaGraduationCap className='text-3xl'/></div>
+    <div className='flex gap-2 items-center hover:text-color-1 hover:bg-color-1- py-1 px-3 rounded-b-2xl hover:cursor-pointer'><MdHome className='text-3xl'/> </div>
+                <div className='flex gap-2 items-center hover:text-color-1 hover:bg-color-1-- py-1 px-3 rounded-b-2xl hover:cursor-pointer'><GoProjectSymlink className='text-3xl'/></div>
+                <div className='flex gap-2 items-center hover:text-color-1 hover:bg-color-1- py-1 px-3 rounded-b-2xl hover:cursor-pointer'><MdOutlineWork className='text-3xl'/></div>
+                <div className='flex gap-1 items-center hover:text-color-1 hover:bg-color-1- py-1 px-3 rounded-b-2xl hover:cursor-pointer'><FaGraduationCap className='text-3xl'/></div>
 
     </div>
     </div>
