@@ -29,12 +29,6 @@ const Hero = () => {
   return (
     <div className="m-3 my-20 mt-32">
     <div className="xls:mt-52 mt-7 max-w-7xl mx-auto">
-      {/* <div className="flex justify-end m-2">
-        <div className="flex justify-center py-1 px-1 bg-white text-color-1 rounded-full w-[160px] items-center text-sm">
-        <MdOutlineFileDownload className="xls:text-2xl text-xl" />
-            Download Resume
-        </div>
-        </div> */}
 
       <div className="max-w-6xl flex flex-wrap xls:flex-nowrap mx-auto gap-y-1 items-center justify-around xls:my-40 m-4 ">
         <div className="flex flex-col justify-between xls:items-start  gap-y-3">
@@ -42,9 +36,6 @@ const Hero = () => {
             Hi, I am <span className="text-color-4">Vinamra Saurav</span> 👋
           </div>
           <div className="my-3 xls:my-6 flex items-center justify-center">
-            {/* <div className="text-3xl xls:text-4xl text-white font-popins text-center xls:text-start">
-              I am
-            </div> */}
             <div className="text-center xls:text-start">
               <span
                 className="text-2xl xls:text-4xl text-white font-popins "
@@ -57,7 +48,7 @@ const Hero = () => {
             solutions that resonate with users, creating products they
             <span className="text-green-500"> truly enjoy ❤️</span>.
           </div>
-          <a className="px-2 py-1 xls:py-2 bg-white text-color-1 rounded-md mt-6 font-[500] font-popins flex justify-center items-center gap-2 w-[200px] xls:w-[250px] mx-auto  xls:mx-0 hover:cursor-pointer text-lg xls:text-xl hover:text-color-5 hover:bg-color-2  ">
+          <a href='/assets/Vinamra_Saurav_Resume.pdf' className="px-2 py-1 xls:py-2 bg-white text-color-1 rounded-md mt-6 font-[500] font-popins flex justify-center items-center gap-2 w-[200px] xls:w-[250px] mx-auto  xls:mx-0 hover:cursor-pointer text-lg xls:text-xl hover:text-color-5 hover:bg-color-2  " download="Vinamra_Saurav_Resume_2026GRAD">
             <MdOutlineFileDownload className="xls:text-2xl text-xl" />
             Download Resume
           </a>

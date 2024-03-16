@@ -3,6 +3,7 @@ import React from "react";
 import { useFormik } from "formik";
 import * as yup from "yup";
 import { useForm, ValidationError } from '@formspree/react';
+import {toast,Toaster} from "react-hot-toast";
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xdoqdqqy");
@@ -112,14 +113,15 @@ const Contact = () => {
               type="submit"
               disabled={state.submitting}
               className="submit-btn w-[150px] p-2 my-2 mx-auto rounded-md font-popins px-4 bg-color-2 font-bold mt-5 hover:bg-gradient-card text-white flex justify-center mb-10 border border-color-1 hover:bg-color-6 hover:shadow-[0_0_10px_3px_#152546]"
-            //   onClick={()=>toast.success("Message Sent")}
+              onClick={()=>toast.success("Message Sent")}
             >
               
               Send Message
             </button>
+            <div className="text-center text-white">I would love to hear from you! You can write me at <strong>vinamrasaurav1715@gmail.com</strong>.</div>
           </form>
           {
-            //  <Toaster/>
+             <Toaster/>
           }
         </div>
       </div>
