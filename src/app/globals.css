@@ -7,7 +7,7 @@ body{
 }
 
 ::-webkit-scrollbar {
-    width: 7px;
+    width: 4px;
   }
   
   /* Track */
@@ -24,6 +24,10 @@ body{
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
+    background: #07365b; 
+    cursor:grab;
+  }
+  ::-webkit-scrollbar-thumb:active{
     background: #07365b; 
     cursor:grabbing;
   }
