@@ -4,7 +4,7 @@ const experienceData=[
         'company':'CompWallah',
         'startDate':'Mar 2024',
         'endDate':'Present',
-        'description':'Served as a Web Development and Desing Intern at CompWallah, where I contributed to the development and enhancement of various frontend applications and collaborated with cross-functional teams to deliver innovative solutions.',
+        'description':'Served as a Web Development and Design Intern at CompWallah, where I contributed to the development and enhancement of various frontend applications and collaborated with cross-functional teams to deliver innovative solutions.',
     },
     {
         'title':'Web Developer',
