@@ -48,7 +48,7 @@ const Hero = () => {
             solutions that resonate with users, creating products they
             <span className="text-green-500"> truly enjoy ❤️</span>.
           </div>
-          <a href='/assets/Vinamra_Saurav_Resume_2026GRAD.pdf' className="px-2 py-1 xls:py-2 bg-white text-color-1 rounded-md mt-6 font-[500] font-popins flex justify-center items-center gap-2 w-[200px] xls:w-[250px] mx-auto  xls:mx-0 hover:cursor-pointer text-lg xls:text-xl hover:text-color-5 hover:bg-color-2  " download="Vinamra_Saurav_Resume_2026GRAD">
+          <a href='/assets/Vinamra_Saurav_Resume_latex_2026GRAD.pdf' className="px-2 py-1 xls:py-2 bg-white text-color-1 rounded-md mt-6 font-[500] font-popins flex justify-center items-center gap-2 w-[200px] xls:w-[250px] mx-auto  xls:mx-0 hover:cursor-pointer text-lg xls:text-xl hover:text-color-5 hover:bg-color-2  " download="Vinamra_Saurav_Resume_2026GRAD">
             <MdOutlineFileDownload className="xls:text-2xl text-xl" />
             Download Resume
           </a>
