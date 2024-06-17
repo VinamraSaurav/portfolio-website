@@ -6,7 +6,7 @@ const educationData=[
         'state':'Odisha',
         'startDate':'2022',
         'endDate':'2026 (Expected)',
-        'cgpa':9.46,
+        'cgpa':9.51,
         'percentage':0,
     },
     {
